@@ -42,8 +42,8 @@ export class AppComponent {
 
 
     const overlayConfig = new OverlayConfig({
-      hasBackdrop: true,
-      backdropClass: 'cdk-overlay-dark-backdrop',
+      hasBackdrop: false,
+      backdropClass: '',
       positionStrategy: positionStrategy,
       scrollStrategy: this.overlay.scrollStrategies.reposition()
     });
